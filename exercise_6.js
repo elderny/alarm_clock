@@ -7,7 +7,7 @@ const clkBtn = document.getElementById('clkBtn');
 clkBtn.addEventListener('click', clickAlarmFather);
 
 var audio = new Audio('http://commondatastorage.googleapis.com/codeskulptor-demos/DDR_assets/Kangaroo_MusiQue_-_The_Neverwritten_Role_Playing_Game.mp3');
-const format = /([0-9]){2}?([0-9]){0}?([0-9]){0} ([0-9]){0}?([0-9]){0}?([0-9]){0}/;
+const format = /([0-9]){4}-([0-9]){2}-([0-9]){2} ([0-9]){2}:([0-9]){2}:([0-9]){2}/;
 
 
 const pTxt = document.getElementById('pTxt');
